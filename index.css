@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0;
-    height: auto;
+    height: 100vh;
     width: 100vw;
 }
 
@@ -26,18 +26,18 @@ body {
 }
 
 .profile_name {
-    font-size: 22px;
+    font-size: 18px;
     letter-spacing: 2px;
     text-align: center;
     color: #6a486c;
-    padding: 10px 0;
+    padding: 5px 0 10px;
     margin: 0;
     font-family: 'Lexend Deca';
 }
 
 .links {
-    font-size: 17px;
-    padding: 15px 20px;
+    font-size: 16px;
+    padding: 10px 20px;
     border: 2px solid #ffffff;
     letter-spacing: 3px;
     font-family: 'Lexend Deca';
@@ -72,13 +72,12 @@ a:active {
     flex-direction: column;
     align-items: center;
     border-radius: 3px;
-    padding: 50px 0 10px;
-    margin-bottom: 30px;
+    padding: 50px 0 20px;
 }
 
 .profile_presentation {
     font-size: 16px;
-    margin: 0 30px;
+    margin: 0 30px 10px;
     letter-spacing: 2px;
     color: #6a486c;
     font-family: 'Roboto Condensed';
@@ -103,10 +102,10 @@ a:active {
 /* Contenu de l'overlay */
 .overlay-content {
     position: relative;
-    width: 330px;
+    width: 320px;
     height: auto;
     background: linear-gradient(140deg, rgba(254,207,232,1) 0%, rgba(254,235,255,1) 50%, rgba(254,200,234,1) 100%);
-    padding: 30px 0 20px 0;
+    padding: 20px 0 0 0;
     border-radius: 3px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     z-index: 2; /* Assure que l'overlay-content reste au-dessus de l'overlay */
