@@ -147,6 +147,11 @@ a:active {
     height: auto;
 }
 
+#verifycompost {
+    width: 70px;
+    height: auto;
+}
+
 
 /* Bouton de fermeture */
 .close-button {
