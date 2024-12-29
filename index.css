@@ -120,6 +120,11 @@ a:active {
     height: auto;
 }
 
+#certification {
+    width: 95%;
+    height: auto;
+}
+
 .overlay-content ul {
     list-style: none;
     display: flex;
@@ -172,9 +177,28 @@ a:active {
     font-size: 50px;
 }
 
+#certification {
+    p {
+        font-size: 16px;
+        font-style: normal;
+        margin: 10px;
+    }
+
+    img {
+        width: 50px;
+        height: auto;
+    }
+
+    span {
+        font-size: 12px;
+        font-style: italic;
+    }
+}
+
 /* Affiche l'overlay si la checkbox est cochée */
 #overlay-toggle-contacts:checked ~ #overlay-contacts,
-#overlay-toggle-projet:checked ~ #overlay-projet, 
+#overlay-toggle-projet:checked ~ #overlay-projet,
+#overlay-toggle-certification:checked ~ #overlay-certification, 
 #overlay-toggle-cv:checked ~ #overlay-cv {
     display: flex;
     visibility: visible;
@@ -216,7 +240,7 @@ a:active {
         font-size: 22px;
     }
 
-    #presentation_projet {
+    #presentation_projet, #certification {
         width: 70%;
         height: auto;
     }
