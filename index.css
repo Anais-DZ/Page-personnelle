@@ -115,6 +115,11 @@ a:active {
     z-index: 2; /* Assure que l'overlay-content reste au-dessus de l'overlay */
 }
 
+#presentation_projet {
+    width: 95%;
+    height: auto;
+}
+
 .overlay-content ul {
     list-style: none;
     display: flex;
