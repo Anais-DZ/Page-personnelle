@@ -106,7 +106,7 @@ a:active {
 /* Contenu de l'overlay */
 .overlay-content {
     position: relative;
-    width: 320px;
+    width: 330px;
     height: auto;
     background: linear-gradient(140deg, rgba(254,207,232,1) 0%, rgba(254,235,255,1) 50%, rgba(254,200,234,1) 100%);
     padding: 20px 0 0 0;
@@ -152,7 +152,7 @@ a:active {
 }
 
 #verifycompost {
-    width: 90px;
+    width: 80px;
     height: auto;
 }
 
@@ -212,7 +212,7 @@ a:active {
     }
 
     #presentation_projet {
-        width: 90%;
+        width: 70%;
         height: auto;
     }
 
