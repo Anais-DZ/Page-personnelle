@@ -88,7 +88,7 @@ a:active {
 
 /* Fond clair pour l'overlay */
 .overlay {
-    display: none;
+    visibility: hidden;
     position: fixed;
     top: 0;
     left: 0;
@@ -98,6 +98,9 @@ a:active {
     z-index: 1;
     justify-content: center;
     align-items: center;
+    opacity: 0; /* Commence invisible */
+    transform: scale(0.9); /* Légèrement réduit au départ */
+    transition: opacity 0.4s ease, transform 0.4s ease; /* Durée de transition */
 }
 
 /* Contenu de l'overlay */
@@ -169,6 +172,9 @@ a:active {
 #overlay-toggle-projet:checked ~ #overlay-projet, 
 #overlay-toggle-cv:checked ~ #overlay-cv {
     display: flex;
+    visibility: visible;
+    opacity: 1; /* Devenu visible */
+    transform: scale(1); /* Taille normale */
 }
 
 /* Masquer la checkbox */
