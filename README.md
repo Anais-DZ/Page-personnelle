@@ -16,7 +16,7 @@
 <br/>Le design est pensé d’abord pour une utilisation mobile, avec une interface épurée, intuitive et accessible. La version desktop est prévue pour une phase ultérieure. Le site reflète mon attention aux détails et mon souci de proposer une navigation fluide et agréable.
 
 **Quelle est l’étape actuelle ?**
-<br/>Le projet est en cours de développement. La version mobile-first est fonctionnelle mais nécessite des améliorations (correction à venir sur les overlays). Je compte d’abord perfectionner cette version, puis travailler sur l’adaptation pour les écrans plus larges (desktop). Tout commentaire ou retour constructif est le bienvenu !
+<br/>Le projet est en cours de développement. La version mobile-first est fonctionnelle mais nécessite des améliorations (correction à venir sur les overlays). Je compte d’abord perfectionner cette version, puis travailler sur l’adaptation pour les écrans plus larges (desktop). Tout commentaire ou retour constructif est le bienvenu ! * * * Update ! 29 décembre 2024 * * * Le site est fonctionnel, sur mobile et sur ordinateur. Les overlays sont corrigés. 
 
 **Que contient ce projet ?**
 <br/>Le site est entièrement conçu en HTML et CSS pour l’instant. Il centralise plusieurs liens utiles et met en avant des projets importants pour illustrer mes compétences (comme mon projet "Ver'ify Compost") et ma créativité (grâce à ma galerie de macrophotographie). Ce projet est conçu comme une base évolutive qui pourra intégrer d’autres fonctionnalités au fur et à mesure.
