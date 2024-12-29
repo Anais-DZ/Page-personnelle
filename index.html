@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/favicon_violet.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Anaïs DIEZ - Page personnelle</title>
+</head>
+<body>
+    <img src="./Images/photo.png" alt="photo_profil" class="profile_picture">
+
+    <section class="information">
+        <h1 class="profile_name">Anaïs DIEZ</h1>
+        <p class="profile_presentation">En recherche de stage dans le Développement Web & Web mobile du 24 mars 2025 au 17 mai 2025 dans la région toulousaine.</p>
+
+        <ul class="menu-list">
+            <li><label for="overlay-toggle-cv" class="links">CV</label></li>
+            <li><a href="https://www.linkedin.com/in/anaïs-diez" class="links" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/Anais-DZ" class="links" target="_blank">GitHub</a></li>
+            <li><label for="overlay-toggle-projet" class="links">Projet: Ver'ify Compost</label></li> 
+            <li><a href="https://www.flickr.com/photos/themis_photographie/" class="links" target="_blank">Flikr</a></li>
+            <!-- Nouveau bouton pour afficher l'overlay -->
+            <li><label for="overlay-toggle-contacts" class="links">Me contacter</label></li>
+        </ul>
+    </section>
+
+    <!-- Checkbox pour gérer l'état de l'overlay -->
+    <input type="checkbox" id="overlay-toggle-cv" class="overlay-toggle">
+    <input type="checkbox" id="overlay-toggle-projet" class="overlay-toggle">
+    <input type="checkbox" id="overlay-toggle-contacts" class="overlay-toggle">
+
+    <!-- Overlay pour les contacts -->
+    <div class="overlay" id="overlay-cv">
+        <div class="overlay-content">
+            <label for="overlay-toggle-cv" class="close-button">&times;</label>
+            <ul>
+                <li>
+                    <a href="https://cv-adiez.vercel.app/" target="_blank"><img src="./Images/en_ligne.png" alt="en_ligne" class="logo_contact"/>CV en ligne</a>
+                </li>
+                <li>
+                    <a href="CV_A_DIEZ.pdf" target="_blank"><img src="./Images/pdf.png" alt="pdf" class="logo_contact" />CV en PDF</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="overlay" id="overlay-projet">
+        <div class="overlay-content">
+            <label for="overlay-toggle-projet" class="close-button">&times;</label>
+            <ul>
+                <p>J'ai choisi de réaliser un site web mobile, Ver'ify Compost, dédié à l'aide au tri des biodéchets. Ce site a pour objectif de sensibiliser les utilisateurs, de les accompagner dans leurs démarches de tri écologique et de contribuer à réduire l'excès de déchets jetés.</p> <p>Actuellement, la maquette ainsi que le prototype dynamique du site sont disponibles sur mon Figma (lien ci-dessous).</p>
+                <li>
+                    <a href="https://www.figma.com/design/I3VE2n0b4SOG1q0VF3Tl2E/Projet-Ver'ify-Compost?node-id=672-1132&node-type=canvas&t=hweVFGwSEwvgwlLe-0" target="_blank"><img src="./Images/figma.png" alt="logo_figma" class="logo_contact"/></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="overlay" id="overlay-contacts">
+        <div class="overlay-content">
+            <label for="overlay-toggle-contacts" class="close-button">&times;</label>
+            <ul>
+                <li>
+                    <a href="tel:+33686601753" target="_blank">
+                        <img src="./Images/phone.png" alt="logo_smartphone" class="logo_contact" />Appel
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:diez.anais@gmail.com" target="_blank">
+                        <img src="./Images/gmail.png" alt="logo_mail" class="logo_contact" />Email
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/+33686601753" target="_blank">
+                        <img src="./Images/whatsapp.png" alt="logo_whatsapp" class="logo_contact" />WhatsApp
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,206 @@
+body {
+    background-image: url('Images/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.profile_picture {
+    width: 135px;
+    height: auto;
+    border: solid #ffffff 2px;
+    top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    box-shadow: 1px 3px 10px #886b89;
+    position: relative;
+    background: linear-gradient(90deg, rgba(217,184,193,1) 0%, rgba(165,133,166,1) 50%, rgba(242,141,141,1) 100%);
+}
+
+.profile_name {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #6a486c;
+    padding: 10px 0;
+    margin: 0;
+    font-family: 'Lexend Deca';
+}
+
+.links {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid #ffffff;
+    letter-spacing: 3px;
+    font-family: 'Lexend Deca';
+    text-align: center;
+    margin: 20px 10px;
+    display: block;
+    border-radius: 50px;
+    box-shadow: 1px 3px 10px #886b89;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(217,184,193,1) 10%, rgba(165,133,166,1) 60%, rgba(242,141,141,1) 100%);
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+a:active {
+    background: #ffffff2c;
+    color: #6a486c;
+}
+
+.information {
+    width: 320px;
+    height: auto;
+    background-color: #ffffff5e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    padding: 50px 0 20px;
+}
+
+.profile_presentation {
+    font-size: 16px;
+    margin: 0 30px;
+    letter-spacing: 2px;
+    color: #6a486c;
+    font-family: 'Roboto Condensed';
+    font-style: oblique;
+    text-align: center;
+}
+
+/* Fond clair pour l'overlay */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(240, 237, 239, 0.7);
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenu de l'overlay */
+.overlay-content {
+    position: relative;
+    width: 250px;
+    height: auto;
+    background: linear-gradient(140deg, rgba(254,207,232,1) 0%, rgba(254,235,255,1) 50%, rgba(254,200,234,1) 100%);
+    padding: 30px 0 20px 0;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 2; /* Assure que l'overlay-content reste au-dessus de l'overlay */
+}
+
+.overlay-content ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.overlay-content p {
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-size: 18px;
+    color: #6a486c;
+    margin: 25px 25px 0 25px;
+}
+
+
+.overlay-content a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #6a486c;
+    font-weight: bold;
+    margin: 10px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-family: 'Roboto Condensed';
+    font-style: oblique;
+}
+
+.overlay-content img {
+    width: 50px;
+    height: auto;
+}
+
+
+/* Bouton de fermeture */
+.close-button {
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    color: #6a486c;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+/* Affiche l'overlay si la checkbox est cochée */
+#overlay-toggle-contacts:checked ~ #overlay-contacts,
+#overlay-toggle-projet:checked ~ #overlay-projet, 
+#overlay-toggle-cv:checked ~ #overlay-cv {
+    display: flex;
+}
+
+/* Masquer la checkbox */
+.overlay-toggle {
+    display: none;
+}
+
+
+@media (min-width: 1000px) {
+    .links {
+        transition: color 0.5s;
+    }
+
+    .links:hover {
+        background: #ffffff2c;
+        color: #6a486c;
+    }       
+    
+    .overlay-content a img {
+        transition: transform 0.5s;
+    }
+
+    .overlay-content li {
+        transition-duration: 0.3s;
+    }
+    
+
+    .overlay-content li:hover {
+        transform: scale(1.3); /* Zoom des images au survol */
+        transition-duration: 0.3s;
+    }
+
+    .overlay-content p {
+        font-size: 22px;
+    }
+
+    .overlay-content {
+        width: 30%;
+        height: auto;
+    }
+}
