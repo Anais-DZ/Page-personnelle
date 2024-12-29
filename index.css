@@ -13,7 +13,7 @@ body {
 
 
 .profile_picture {
-    width: 150px;
+    width: 165px;
     height: auto;
     border: solid #ffffff 2px;
     top: 45px;
@@ -37,14 +37,15 @@ body {
 
 .links {
     font-size: 16px;
-    padding: 15px 20px;
+    font-weight: bold;
+    padding: 15px 30px;
     border: 2px solid #ffffff;
     letter-spacing: 3px;
     font-family: 'Lexend Deca';
     text-align: center;
     margin: 15px 0;
     display: block;
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: 1px 3px 10px #886b89;
     text-decoration: none;
     color: #ffffff;
@@ -65,7 +66,7 @@ a:active {
 }
 
 .information {
-    width: 330px;
+    width: 350px;
     height: auto;
     background-color: #ffffff5e;
     display: flex;
