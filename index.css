@@ -7,13 +7,13 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0;
-    height: 100vh;
+    height: auto;
     width: 100vw;
 }
 
 
 .profile_picture {
-    width: 135px;
+    width: 150px;
     height: auto;
     border: solid #ffffff 2px;
     top: 45px;
@@ -26,7 +26,7 @@ body {
 }
 
 .profile_name {
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 2px;
     text-align: center;
     color: #6a486c;
@@ -36,13 +36,13 @@ body {
 }
 
 .links {
-    font-size: 16px;
-    padding: 10px 20px;
+    font-size: 17px;
+    padding: 15px 20px;
     border: 2px solid #ffffff;
     letter-spacing: 3px;
     font-family: 'Lexend Deca';
     text-align: center;
-    margin: 20px 10px;
+    margin: 20px 0;
     display: block;
     border-radius: 50px;
     box-shadow: 1px 3px 10px #886b89;
@@ -65,14 +65,15 @@ a:active {
 }
 
 .information {
-    width: 320px;
+    width: 330px;
     height: auto;
     background-color: #ffffff5e;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 3px;
-    padding: 50px 0 20px;
+    padding: 50px 0 10px;
+    margin-bottom: 30px;
 }
 
 .profile_presentation {
@@ -102,7 +103,7 @@ a:active {
 /* Contenu de l'overlay */
 .overlay-content {
     position: relative;
-    width: 250px;
+    width: 330px;
     height: auto;
     background: linear-gradient(140deg, rgba(254,207,232,1) 0%, rgba(254,235,255,1) 50%, rgba(254,200,234,1) 100%);
     padding: 30px 0 20px 0;
