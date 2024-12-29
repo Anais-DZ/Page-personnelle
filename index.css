@@ -100,7 +100,7 @@ a:active {
     align-items: center;
     opacity: 0; /* Commence invisible */
     transform: scale(0.9); /* Légèrement réduit au départ */
-    transition: opacity 0.4s ease, transform 0.4s ease; /* Durée de transition */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Durée de transition */
 }
 
 /* Contenu de l'overlay */
