@@ -7,7 +7,7 @@
 
 ### Qu’est-ce que ce projet ?
 - C’est un site web pensé en mobile-first qui centralise plusieurs liens importants : mon CV (en version en ligne et PDF), mon profil LinkedIn, le prototype Figma de mon projet, "Ver'ify Compost", à réaliser durant ma formation (un site web mobile dédié à l’aide au tri des biodéchets), mon portfolio photo sur Flickr, où je partage ma passion pour la macrophotographie, et enfin, mes coordonnées accessibles en un clic. Ce projet n’est pas seulement un moyen pratique de regrouper mes ressources, c’est aussi une démonstration concrète de mes compétences techniques et de mon sens de la créativité..
-
+<br>
 
 ### Quand l’ai-je créé ?
 - J’ai commencé ce projet en décembre 2024. Il est encore en cours de développement et continuera d’évoluer au fil de mes apprentissages.
