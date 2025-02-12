@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page personnelle regroupant mon CV, mon portefolio et mon GitHub entre autre">
     <link rel="icon" href="Images/favicon_violet.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Anaïs DIEZ - Page personnelle</title>
 </head>
 <body>
@@ -15,15 +17,17 @@
 
     <section class="information">
         <h1 class="profile_name">Anaïs DIEZ</h1>
-        <p class="profile_presentation">En recherche d'un stage non rémunéré dans le Développement Web & Web mobile du 24 mars 2025 au 16 mai 2025 dans la région toulousaine.</p>
+        <p class="profile_presentation"><strong>Développeuse Web & Web Mobile</strong> en formation à l’ADRAR Digital Academy depuis octobre 2024, j’allie mes compétences techniques (<strong>HTML, CSS, JavaScript, PHP, MySQL</strong>) et ma maîtrise d’outils comme <strong>GitHub, VS Code et Figma</strong> à 14 ans d’expérience professionnelle.
+        Ayant une préférence pour le <strong>Front-End</strong>, je prends plaisir à concevoir des <strong>interfaces esthétiques et fonctionnelles</strong>.</p>
+        <p class="profile_presentation">Mon parcours professionnel m’a permis de développer des compétences transférables essentielles : <strong>contact client, gestion d’équipe, rigueur, organisation et esprit collaboratif. Curieuse et autonome</strong>, je suis prête à relever de nouveaux défis dans le domaine du numérique.</p>
 
         <ul class="menu-list">
-            <li><label for="overlay-toggle-cv" class="links">CV</label></li>
-            <li><a href="https://www.linkedin.com/in/anaïs-diez" class="links" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/Anais-DZ" class="links" target="_blank">GitHub</a></li>
-            <li><label for="overlay-toggle-projet" class="links">Projet: Ver'ify Compost</label></li> 
-            <li><a href="https://www.flickr.com/photos/themis_photographie/" class="links" target="_blank">Flikr</a></li>
-            <li><label for="overlay-toggle-certification" class="links">Autoformation</label></li>
+            <li data-aos="fade-left"><label for="overlay-toggle-cv" class="links">CV</label></li>
+            <li data-aos="fade-right"><a href="https://www.linkedin.com/in/anaïs-diez" class="links" target="_blank">LinkedIn</a></li>
+            <li data-aos="fade-left"><a href="https://github.com/Anais-DZ" class="links" target="_blank">GitHub</a></li>
+            <li data-aos="fade-right"><label for="overlay-toggle-projet" class="links">Projet: Ver'ify Compost</label></li> 
+            <li data-aos="fade-left"><a href="https://www.flickr.com/photos/themis_photographie/" class="links" target="_blank">Flikr</a></li>
+            <li data-aos="fade-right"><label for="overlay-toggle-certification" class="links">Autoformation</label></li>
             <!-- Nouveau bouton pour afficher l'overlay -->
             <li><label for="overlay-toggle-contacts" class="links">Me contacter</label></li>
         </ul>
@@ -44,7 +48,7 @@
                     <a href="https://cv-adiez.vercel.app/" target="_blank"><img src="./Images/en_ligne.png" alt="en_ligne" class="logo_contact"/>CV en ligne</a>
                 </li>
                 <li>
-                    <a href="cv-anais-diez.pdf" target="_blank"><img src="./Images/pdf.png" alt="pdf" class="logo_contact" />CV en PDF</a>
+                    <a href="cv_anais_diez.pdf" target="_blank"><img src="./Images/pdf.png" alt="pdf" class="logo_contact" />CV en PDF</a>
                 </li>
             </ul>
         </div>
@@ -108,5 +112,7 @@
             </ul>
         </div>
     </div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
 </body>
 </html>

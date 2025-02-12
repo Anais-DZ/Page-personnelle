@@ -79,10 +79,10 @@ a:active {
 .profile_presentation {
     font-size: 16px;
     margin: 0 30px 10px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #6a486c;
-    font-family: 'Roboto Condensed';
-    font-style: oblique;
+    font-family: 'Roboto';
+    font-style: normal;
     text-align: center;
 }
 
