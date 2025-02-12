@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0;
-    height: 155vh;
+    height: 165vh;
     width: 100vw;
 }
 
@@ -23,6 +23,7 @@ body {
     box-shadow: 1px 3px 10px #886b89;
     position: relative;
     background: linear-gradient(90deg, rgba(217,184,193,1) 0%, rgba(165,133,166,1) 50%, rgba(242,141,141,1) 100%);
+    z-index: 200;
 }
 
 .profile_name {
@@ -68,7 +69,8 @@ a:active {
 .information {
     width: 350px;
     height: auto;
-    background-color: #ffffff5e;
+    background-color: #ffffff30;
+    backdrop-filter: blur(5px);
     display: flex;
     flex-direction: column;
     align-items: center;
