@@ -38,11 +38,11 @@ body, html {
 }
 
 .links {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     padding: 15px 30px;
     border: 2px solid #ffffff;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-family: 'Lexend Deca';
     text-align: center;
     margin: 15px 0;
@@ -53,6 +53,8 @@ body, html {
     color: #ffffff;
     cursor: pointer;
     background: linear-gradient(90deg, rgba(217,184,193,1) 10%, rgba(165,133,166,1) 60%, rgba(242,141,141,1) 100%);
+    width: 70vw;
+    max-width: 600px;
 }
 
 .menu-list {
@@ -68,7 +70,8 @@ a:active {
 }
 
 .information {
-    width: 350px;
+    width: 90vw;
+    max-width: 700px;
     height: auto;
     background-color: #ffffff30;
     backdrop-filter: blur(5px);
@@ -80,7 +83,7 @@ a:active {
 }
 
 .profile_presentation {
-    font-size: 16px;
+    font-size: 18px;
     margin: 0 15px 10px;
     letter-spacing: 1px;
     color: #6a486c;
@@ -218,12 +221,17 @@ a:active {
 @media (min-width: 1000px) {
     .links {
         transition: color 0.5s;
+        font-size: 22px;
     }
 
     .links:hover {
         background: #ffffff2c;
         color: #6a486c;
-    }       
+    }
+    
+    .profile_presentation {
+        font-size: 20px;
+    }
     
     .overlay-content a img {
         transition: transform 0.5s;
